@@ -8,7 +8,7 @@ const Header = (props) => {
       <Logo>
         <a href="/">
           {/* Imagem do Logo */}
-          <img src="/images/Tree.png" alt="" />
+          <img src="/images/Tree." alt="" />
         </a>
       </Logo>
 
