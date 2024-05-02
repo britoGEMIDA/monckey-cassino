@@ -16,21 +16,21 @@ const Header = (props) => {
       <NavMenu>
         {/* Links de Navegação */}
         <a href="/">
-          <span>Home</span>
+          <span>Cassino</span>
         </a>
         <a href="/about">
-          <span>About us</span>
+          <span>Sobre Nós</span>
         </a>
-        <a href="/contact">
+        {/* <a href="/contact">
           <span>Contact us</span>
-        </a>
+        </a> */}
       </NavMenu>
 
       {/* Wrapper adicional */}
       <Wrap>Hi</Wrap>
 
       {/* Botão de Login */}
-      <Login>Login</Login>
+      <Login>Cadastre-se</Login>
     </Container>
   );
 };

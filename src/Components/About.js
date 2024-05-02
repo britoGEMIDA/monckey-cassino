@@ -6,13 +6,11 @@ const About = () => {
     <Container>
       {/* Wrapper para o conteúdo da seção "Sobre Mim" */}
       <ContentWrapper>
-        <Title>Sobre Mim</Title>
+        <Title>Sobre Nós</Title>
 
         {/* Descrição */}
         <Description>
-          Sou um desenvolvedor apaixonado por tecnologia e sempre em busca de
-          novos desafios. Minha jornada começou quando descobri o poder da
-          programação e desde então, não parei mais de aprender e evoluir.
+        Na Moncke's Luck, a sorte é nossa aliada e a diversão é garantida! Venha experimentar a emoção dos melhores jogos de cassino online e descubra por que somos o destino preferido dos amantes de apostas. Junte-se a nós e faça parte dessa jornada repleta de prêmios e entretenimento. A sorte está ao seu lado aqui na Moncke's Luck
         </Description>
 
         {/* Wrapper para a seção de habilidades */}
@@ -22,11 +20,11 @@ const About = () => {
           {/* Lista de habilidades */}
           <SkillList>
             <Skill>
-              <SkillIcon>💻</SkillIcon>
-              <SkillName>Desenvolvimento Web</SkillName>
+              <SkillIcon>📱</SkillIcon>
+              <SkillName>Telefone </SkillName>
             </Skill>
             <Skill>
-              <SkillIcon>📱</SkillIcon>
+              <SkillIcon>💻</SkillIcon>
               <SkillName>Desenvolvimento Mobile</SkillName>
             </Skill>
             <Skill>

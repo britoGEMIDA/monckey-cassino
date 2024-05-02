@@ -7,7 +7,7 @@ const Home = () => {
       {/* Em React, "Wrapper" é um termo comumente usado para se referir a um componente que envolve (wraps) um ou mais outros componentes.  */}
       {/* Wrapper para o conteúdo de texto */}
       <ContentWrapper>
-        <Title>Bem-vindo!</Title>
+        <Title>Fortune Tiger</Title>
         <Subtitle>Explore nosso site e descubra tudo o que temos a oferecer.</Subtitle>
         <CallToAction href="#">Conheça Agora</CallToAction>
       </ContentWrapper>
