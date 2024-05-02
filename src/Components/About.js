@@ -15,7 +15,7 @@ const About = () => {
 
         {/* Wrapper para a seção de habilidades */}
         <SkillsWrapper>
-          <SkillTitle>Algumas de minhas habilidades:</SkillTitle>
+          <SkillTitle>Para mais informações:</SkillTitle>
 
           {/* Lista de habilidades */}
           <SkillList>
@@ -56,14 +56,14 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #b19141;
 `;
 
 // Wrapper para o conteúdo da seção "Sobre Mim"
 const ContentWrapper = styled.div`
   max-width: 600px;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #010101;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   animation: ${slideUpAnimation} 0.5s ease-in-out;
@@ -73,14 +73,14 @@ const ContentWrapper = styled.div`
 const Title = styled.h1`
   font-size: 32px;
   font-weight: bold;
-  color: #333333;
+  color: #b19141;
   margin-bottom: 20px;
 `;
 
 // Descrição
 const Description = styled.p`
   font-size: 18px;
-  color: #666666;
+  color: #f1f1f1;
   line-height: 1.5;
   margin-bottom: 30px;
 `;
@@ -94,7 +94,7 @@ const SkillsWrapper = styled.div`
 const SkillTitle = styled.h3`
   font-size: 20px;
   font-weight: bold;
-  color: #333333;
+  color: #b19141;
   margin-bottom: 10px;
 `;
 
@@ -124,7 +124,7 @@ const SkillIcon = styled.span`
 // Nome da habilidade
 const SkillName = styled.span`
   font-size: 16px;
-  color: #333333;
+  color: #f1f1f1;
 `;
 
 export default About;

@@ -8,7 +8,7 @@ const Header = (props) => {
       <Logo>
         <a href="/">
           {/* Imagem do Logo */}
-          <img src="/images/Tree." alt="" />
+          <img src="/img/logo.png" alt="logo" />
         </a>
       </Logo>
 
@@ -16,10 +16,10 @@ const Header = (props) => {
       <NavMenu>
         {/* Links de Navegação */}
         <a href="/">
-          <span>Cassino</span>
+          <span>CASSINO</span>
         </a>
         <a href="/about">
-          <span>Sobre Nós</span>
+          <span>SOBRE NÓS</span>
         </a>
         {/* <a href="/contact">
           <span>Contact us</span>
@@ -29,8 +29,10 @@ const Header = (props) => {
       {/* Wrapper adicional */}
       <Wrap>Hi</Wrap>
 
-      {/* Botão de Login */}
-      <Login>Cadastre-se</Login>
+      {/* Botão de Login / Cadastre-se */}
+      <LoginLink href="/contact">
+        <span>Cadastre-se</span>
+      </LoginLink>
     </Container>
   );
 };
@@ -55,13 +57,13 @@ const Container = styled.div`
 
 // Estilo do Logo
 const Logo = styled.a`
-  width: 80px;
+  width: 200px; 
   align-items: center;
+  padding-top: 25px;
   a {
     cursor: auto;
     img {
-      width: 90%;
-      border-radius: 50px;
+      width: 100%;
     }
   }
 `;
@@ -131,8 +133,8 @@ const NavMenu = styled.div`
   }
 `;
 
-// Estilo do Botão de Login
-const Login = styled.a`
+// Estilo do Botão de Login / Cadastre-se
+const LoginLink = styled.a`
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 10px 16px;
@@ -147,6 +149,7 @@ const Login = styled.a`
     color: #000;
     border-color: transparent;
   }
+  text-decoration: none; /* Adicionado para remover o sublinhado */
 `;
 
 export default Header;

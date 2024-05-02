@@ -6,7 +6,7 @@ const Contact = () => {
     <Container>
       {/* Wrapper para o conteúdo do formulário */}
       <ContentWrapper>
-        <Title>Entre em Contato</Title>
+        <Title>Sign up</Title>
 
         {/* Formulário de contato */}
         <Form>
@@ -24,12 +24,12 @@ const Contact = () => {
 
           {/* Grupo de campos para a mensagem */}
           <FormGroup>
-            <Label htmlFor="message">Mensagem</Label>
-            <Textarea id="message" rows="5" placeholder="Digite sua mensagem" />
+            <Label htmlFor="cpf">CPF</Label>
+            <Textarea id="cpf" rows="1" placeholder="Digite seu CPF" />
           </FormGroup>
 
           {/* Botão de envio do formulário */}
-          <SubmitButton type="submit">Enviar</SubmitButton>
+          <SubmitButton type="submit">Login</SubmitButton>
         </Form>
       </ContentWrapper>
     </Container>
