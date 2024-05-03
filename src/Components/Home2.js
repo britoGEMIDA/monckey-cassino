@@ -20,13 +20,13 @@ const Home2 = () => {
     </Container>
   );
 };
-
+          /*Sobre nós CSS*/ 
 const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #b19141;
 `;
 
 const ContentWrapper = styled.div`

@@ -9,7 +9,7 @@ const Home = () => {
       <ContentWrapper>
         <Title>Fortune Tiger</Title>
         <Subtitle>Fortune Tiger é um jogo de apostas e cassino online caracterizado como jogo de azar, desenvolvido pela empresa maltesa NTP DEVS. O sistema de Fortune Tiger é hospedado fora do Brasil e a organização que desenvolveu o jogo não possui registro no país.</Subtitle>
-        <CallToAction href="https://www.google.com/search?sca_esv=de93c5c4281f23a7&rlz=1C1CHZN_pt-BRBR1089BR1089&sxsrf=ACQVn08NSRr-9RpQWBpuVkY4TIHLkOPt3A:1714670715797&q=Club+Vegas+-+Jogos+de+Cassino&stick=H4sIAAAAAAAAAONgVeLVT9c3NEypSKmstEw3MxLNyk_PL1ZISVVIrEosUkhOLC7OzMs_xQhRlmxmXl5gYZKLzC80LCo8xcihn6tvYJZTUAWTgpkI46dXGVQZpZgZQJUaWqYgpFIMi82MLcxh_CKTpKocg2IjqFLTIsMsZAstsyvgtiQlm5qX51lWwPhplTlVZoVJBY8YtzJxC7z8cU9YajXTpDUnrzEuYeIS8MnPL07NqQxKzUksSU0JyRcS42JzzSvJLKkU4pHi4oI4LKfQWKiJkYs7OLUkJN83PyUzrVKoWKiQON3GJilZQq6oms2ETLg4fVNzk1KLiv3ThJS5uJzzc3JSk0sy8_OERKWEuQT1k-EC-umJuanFVkwaTEqFRnG7Lk07xxYhyAAE1_SCHKQ0tAS52FzycxMz8wTPNy-bH_T1rb2WMBdHSGJFfl5-bqXg1fiP9tWv3tsrKXIC9Ry4qHPXHqxbKNTigASzApMGgyGQl2A0VeuAFsMEJsamfSsOsXFwMAowGDFxMFQx8CxilXXOKU1SCEtNTyxW0FXwgiUHZ0hKmMDGCAAc2HiINQIAAA&sa=X&lei=f8wzZsuWBPmL5OUP2Lei0Ag">Click agora</CallToAction>
+        <CallToAction href="https://wxwx7.com/#/home?ch=x1o1l">Jogue agora</CallToAction>
       </ContentWrapper>
 
       {/* Wrapper para a imagem de destaque */}

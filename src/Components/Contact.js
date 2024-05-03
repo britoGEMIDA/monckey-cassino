@@ -54,14 +54,14 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #b19141; /* cor do fundo */
 `;
 
 // Wrapper para o conteúdo do formulário
 const ContentWrapper = styled.div`
   max-width: 500px;
   padding: 40px;
-  background-color: #ffffff;
+  background-color: #010101;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   animation: ${fadeInAnimation} 0.5s ease-in-out;
@@ -71,7 +71,7 @@ const ContentWrapper = styled.div`
 const Title = styled.h2`
   font-size: 28px;
   font-weight: bold;
-  color: #333333;
+  color: #f5f5f5;
   margin-bottom: 20px;
   text-align: center;
 `;
@@ -87,11 +87,11 @@ const FormGroup = styled.div`
   margin-bottom: 20px;
 `;
 
-// Estilo dos labels
+// Estilo dos labels  /*temas do formulário*/
 const Label = styled.label`
   font-size: 16px;
   font-weight: bold;
-  color: #333333;
+  color: #f5f5f5;
   margin-bottom: 8px;
   display: block;
 `;
@@ -121,7 +121,7 @@ const SubmitButton = styled.button`
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #b19141;
   border: none;
   border-radius: 4px;
   cursor: pointer;
