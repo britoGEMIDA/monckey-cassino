@@ -20,7 +20,7 @@ const Home2 = () => {
     </Container>
   );
 };
-          /*Sobre nós CSS*/ 
+          /*Sobre nós do CSS*/ 
 const Container = styled.div`
   display: flex;
   justify-content: center;
